@@ -1,0 +1,211 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.titulo_seccion{
+    width: 350px;
+    height: 48px;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+    align-self: center;
+}
+.encabezado{
+    width: auto;
+    height: auto;
+    background: #5300C8;
+    filter: drop-shadow(0px 7px 0.9px #E5E5E5);
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 30px;
+    padding-block: 20px;
+}
+.encabezado_titulo{
+    width: 236px;
+    color: #E5E5E5;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 16px;
+}
+.columna_1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.columna_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    /* padding: 40px; */
+    gap: 40px;
+}
+.campo__completo{
+    width: 332px;
+    height: 52px;
+    border-radius: 25px;
+    border: 2px solid #03318C;
+    padding-left: 12px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #03318C;
+}
+.campo__completo::placeholder{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #03318C;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+
+}
+.boton_enviar, .boton_limpiar {
+    all: unset; /* Eliminar todos los estilos por defecto */
+    display: inline-block; /* Para asegurar que el botón se comporte correctamente */
+    cursor: pointer; /* Para mostrar el cursor de mano al pasar sobre el botón */
+    text-align: center; /* Centrar el texto dentro del botón */
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    width: 164px;
+    height: 51px;
+}
+
+.boton_enviar {
+    border-radius: 15px;
+    border: 2px solid #03318C; /* Asegúrate de especificar el borde completamente */
+    background: #03318C;
+    color: white;
+}
+
+.boton_limpiar {
+    border-radius: 15px;
+    background: white;
+    border: 2px solid #03318C; /* Asegúrate de especificar el borde completamente */
+    color: #03318C; /* Cambia el color del texto para que sea visible sobre el fondo blanco */
+}
+.lista_productos{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            200px,
+            0.3fr
+        )
+    );
+    white-space: nowrap; /* Evitar que los elementos se rompan en nuevas líneas */
+    padding: 10px; /* Opcional: agrega un poco de padding */
+    gap: 10px; /* Espacio entre las tarjetas */
+}
+.tarjeta_producto{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    width: 176px;
+    height: auto;
+    background: #5D04D9;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #000000;
+    filter: drop-shadow(-5px 6px 3px #D6D6D6);
+}
+.tarjeta_imagen{
+    height: 174px;
+    border-radius: 5px;
+    border: 3px solid #000000;
+}
+
+.tarjeta_titulo{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.tarjeta_items{
+    display: flex;
+    justify-content: space-between;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+}
+.boton_eliminar:hover {
+    cursor: pointer;
+    background: burlywood;
+}
+.footer{
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #5300C8;
+    filter: drop-shadow(0px 7px 0.9px #E5E5E5);
+}
+.footer_titulo_1, .footer_titulo_2{
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+}
+.footer_titulo_1{
+    font-weight: 400;
+}
+.footer_titulo_2{
+    font-weight: 100;
+}
+.footer_creditos{
+    height: 48px;
+    line-height: 16px;
+
+}
+@media (min-width: 431px){
+    
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 1000px){
+    .container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .columna_1{
+        flex: 2;
+        justify-content: start;
+        margin-top: 0px;
+    }
+    .columna_2{
+        flex: 1;
+        justify-content: start;
+    }
+}
+@media (min-width: 1300px){
+
+}

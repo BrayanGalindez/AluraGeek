@@ -1,0 +1,46 @@
+{
+  "productos": [
+    {
+      "id": "d5d4",
+      "titulo": "Gon",
+      "precio": "$ 90,00",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqHLZDeLXx5aRnyccKxyrBkQ6wWo675e3U_cNktaNpRsAlYr4IQbZCtGg9mlTTgBc048c6W2-EgvJ0OCJmtCYIKfEaQTrd3l8Aogs9eLDPqmt7oKyShtFAhWN-Vy-n8ECcceKO0cg05zJZYMLxFl3tLubK1BIi29t3y8oLQK2ehbZiQ3olY70OlUkVYA/s800/mj1.jpg"
+    },
+    {
+      "id": "6221",
+      "titulo": "Killua",
+      "precio": "$ 100,00",
+      "imagen": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXaYwApUELGJTCwm0FcWCMd1fsqTVwtxlhRN0qkURNgC6wx8r2IhCPH08z--B70f19mwDs5VBzPc0_azffAk7nGdI_N64zkFXt3UT_mDvhXF4FKElNejrsXXursZNEiOfJ3bkjxyFB6lFcgZ1Osh1KJmAGHcAKrJ4VjwLuWGvwbGsT3k21u0lcH5Rmdw/s800/mj1.jpg"
+    },
+    {
+      "id": "6cc0",
+      "titulo": "Hisoka",
+      "precio": "$ 100,00",
+      "imagen": "https://m.media-amazon.com/images/I/31DwrZIvL9S.jpg"
+    },
+    {
+      "id": "9774",
+      "titulo": "Pitou",
+      "precio": "$ 60,00",
+      "imagen": "https://i.etsystatic.com/48343954/c/1275/1275/3/0/il/54b72c/5537418820/il_300x300.5537418820_byll.jpg"
+    },
+    {
+      "id": "c1e0",
+      "titulo": "Kurapika",
+      "precio": "$ 80,00",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmXzA-fGYJkNLWjMXYU3PKvfHhW89UzV3SAw&s"
+    },
+    {
+      "id": "2504",
+      "titulo": "Yor",
+      "precio": "$ 90,00",
+      "imagen": "https://www.distritomax.com/cdn/shop/products/00_37516c95-c35f-40b2-b26f-6d2edc553804_800x1200.jpg?v=1663271340"
+    },
+    {
+      "id": "2cdc",
+      "titulo": "Naruto",
+      "precio": "$ 90,00",
+      "imagen": "https://xtremeplay.co/wp-content/uploads/2022/08/TOYCOLBAN1687.jpg"
+    }
+  ]
+}
